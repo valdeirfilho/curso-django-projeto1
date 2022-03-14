@@ -1,7 +1,7 @@
 # Curso Django - Recipes Web Site - 🐍🌭🍟🍔🍕
 
 ### Create a virtual environment
-_sugestion_
+
 ~~~python 
 python3 -m venv venv
 ~~~
