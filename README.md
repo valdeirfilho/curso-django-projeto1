@@ -12,7 +12,6 @@ _For Windows_
 ./venv/Scripts/activate
 ~~~
 _For Linux/MacOS_
-update pip
 ~~~python 
 ./venv/bin/activate
 ~~~
