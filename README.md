@@ -1,4 +1,4 @@
-# Curso Django - site recipes - 🐍🌭🍟🍔🍕
+# Curso Django - Recipes Web Site - 🐍🌭🍟🍔🍕
 
 Steps
 
