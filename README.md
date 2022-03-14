@@ -19,3 +19,6 @@ _For Linux/MacOS_
 ~~~python 
 pip install -r requirements.txt
 ~~~
+
+Reinstall pip 
+python -m ensurepip --default-pip
