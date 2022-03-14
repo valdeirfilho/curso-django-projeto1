@@ -14,7 +14,7 @@ _For Windows_
 _For Linux/MacOS_
 update pip
 ~~~python 
-python3 -m venv venv
+./venv/bin/activate
 ~~~
 ### Install dependencies and libraries
 ~~~python 
