@@ -51,17 +51,17 @@ wheels/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-.pytest_cache/
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
+# # Unit test / coverage reports
+# htmlcov/
+# .tox/
+# .coverage
+# .coverage.*
+# .cache
+# .pytest_cache/
+# nosetests.xml
+# coverage.xml
+# *.cover
+# .hypothesis/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -127,7 +127,6 @@ _local_settings.py
 gunicorn-error-log
 db.sqlite3
 db copy.sqlite3
-static/
 
 #adição pessoal
 !db.sqlite3
