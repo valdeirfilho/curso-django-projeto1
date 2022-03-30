@@ -1,9 +1,14 @@
 from pyexpat import model
+from typing_extensions import Self
 from django.db import models
 from django.contrib.auth.models import User
 
 class Category(models.Model):
     name = models.CharField(max_length=65)
+
+    def __str__ (self):
+        return self.name
+
 
 class Recipe(models.Model):
     title = models.CharField(max_length=65)
@@ -25,3 +30,6 @@ class Recipe(models.Model):
     author = models.ForeignKey(
         User, on_delete=models.SET_NULL, null=True
     )
+
+    def __str__(self):
+        return self.title
